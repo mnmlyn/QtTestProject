@@ -12,3 +12,8 @@ LoginDlg::~LoginDlg()
 {
     delete ui;
 }
+
+void LoginDlg::on_loginBtn_clicked()
+{
+    accept();
+}
